@@ -22,7 +22,6 @@ RUN set -x \
     && wget -q -O - https://github.com/cjlin1/liblinear/archive/v${LIBLINEAR_VERSION}.tar.gz \
         | tar -xzf - -C / \
     && cd /liblinear-${LIBLINEAR_VERSION} \
-    && cd /liblinear-${LIBLINEAR_VERSION} \
     && make all lib \
     && cp train predict /usr/local/bin/ \
     && cp liblinear.so* /usr/local/lib/ \
