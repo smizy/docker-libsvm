@@ -1,7 +1,7 @@
-FROM alpine:3.5
+FROM alpine:3.7
 
 ENV  LIBSVM_VERSION     "322"
-ENV  LIBLINEAR_VERSION  "211"
+ENV  LIBLINEAR_VERSION  "220"
 
 RUN set -x \
     && apk update \

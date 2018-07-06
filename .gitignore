@@ -1,0 +1,8 @@
+.DS_Store
+*.1
+*.bak
+*.tmp
+data
+tmp
+var
+.ipynb_checkpoints
